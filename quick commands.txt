@@ -1,0 +1,17 @@
+
+nodemon:
+npm install --save-dev nodemon
+
+start nodemon from normal command line than powershell
+
+npm start ?
+no that did not work 
+
+issue with : ng new client:-
+solution:
+npm uninstall -g angular-cli @angular/cli
+npm cache clean
+npm install -g @angular/cli@latest
+
+
+
